@@ -1,11 +1,10 @@
---[[
-    Flow:
-    1. Listen for "CameraActive" changes.
-    2. Update camera position on each render step if isCameraActive is true.
-    3. Process drag events to update VirtualCamPoint.
-    4. Update final X and Z positions on drag end.
-    5. Set up input signals.
---]]
+--Flow:
+    --1. Listen for "CameraActive" changes.
+    --2. Update camera position on each render step if isCameraActive is true.
+    --3. Process drag events to update VirtualCamPoint.
+    --4. Update final X and Z positions on drag end.
+    --5. Set up input signals.
+----
 
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
